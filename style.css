@@ -1,0 +1,114 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+
+
+
+ .menu {
+    background-color: black;
+
+
+
+ }
+
+ .nav-item a {
+    color: white;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-weight: bold;
+ }
+
+ h1 {
+    display: flex;
+    justify-content: center;
+
+ }
+
+ .second-part {
+    display: flex;
+    justify-content: space-between;
+
+ }
+
+ @media (max-width:700px) {
+    .second-part {
+       display: flex;
+       flex-direction: column;
+    }
+
+    .fourth-part {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+    }
+
+    .fifth-part {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+    }
+
+    .pic-row {
+       display: flex;
+       justify-content: center;
+       flex-direction: column;
+    }
+
+    .footer {
+       display: flex;
+       flex-direction: column;
+    }
+
+    .juicy {
+       display: flex;
+       justify-content: center;
+    }
+
+    .milkshake {
+       display: flex;
+       justify-content: center;
+    }
+
+    .trending {
+       display: flex;
+       justify-content: center;
+    }
+
+    .special {
+
+       display: flex;
+       justify-content: center;
+    }
+
+ }
+
+ .container {
+
+    display: flex;
+    justify-content: space-around;
+
+ }
+
+
+ @media (max-width:998px) {
+    .container {
+       display: flex;
+       flex-direction: column;
+    }
+ }
+
+
+
+ .fourth-part {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+ }
+
+ .fifth-part {
+    display: flex;
+ }
